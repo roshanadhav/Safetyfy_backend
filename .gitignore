@@ -1,0 +1,36 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
+bun.lockb
+.vscode/
+.DS_Store
+
+# Next.js build & cache
+.env
+.next/
+out/
+.vercel/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Express.js build & logs
+dist/
+logs/
+*.log
+!.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.swp
+*.swo
+
+# Misc
+coverage/
+.idea/
+*.bak
+Thumbs.db
