@@ -16,13 +16,13 @@ const server = htpp.createServer(app) ;
 
 const io = new Server(server , {
     cors:{
-        origin: ["http://localhost:3000" , "http://10.20.11.23:3000","http://192.168.43.40:5000" ,"http://10.20.10.31:5000" ],
+        origin: 'https://safetyfy-app.vercel.app',
         credentials: true,
         methods: ["GET", "POST"],
     }
 })
 app.use(cors({
-    origin: ["http://localhost:3000" , "http://10.20.11.23:3000" ,"http://10.20.10.31:3000","http://192.168.43.40:5000" , "http://10.20.10.31:5000"],
+    origin: 'https://safetyfy-app.vercel.app/',
     credentials: true,
     methods: ["GET", "POST"],
 }));
