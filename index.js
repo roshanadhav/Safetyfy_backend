@@ -22,7 +22,7 @@ const io = new Server(server , {
     }
 })
 app.use(cors({
-    origin: 'https://safetyfy-app.vercel.app/',
+    origin: 'https://safetyfy-app.vercel.app',
     credentials: true,
     methods: ["GET", "POST"],
 }));
